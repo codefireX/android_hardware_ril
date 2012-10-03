@@ -2,6 +2,8 @@
 
 ifneq ($(BOARD_PROVIDES_LIBRIL),true)
 
+LOCAL_CFLAGS += -Os
+
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
 
